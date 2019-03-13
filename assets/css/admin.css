@@ -1,0 +1,26 @@
+#amp-flush label.amp-label {
+	float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+label.amp-log{
+	display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    margin-right: 15px;
+}
+label.amp-log.danger{
+	background-color: #d9534f;
+}
+label.amp-log.success{
+	background-color: #5cb85c;
+}
